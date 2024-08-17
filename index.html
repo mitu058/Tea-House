@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"> -->
 
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
@@ -20,9 +20,6 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- config script -->
-
-<!-- star -->
-
 
     <script>
         tailwind.config = {
@@ -35,15 +32,18 @@
           }
         }
       </script>
+
+
+
 </head>
 
 <body>
     <main class="max-w-screen-lg mx-auto px-12 ">
-        <header class="flex  justify-between pt-12 mb-20">
+        <header class="lg:flex  justify-between pt-12 mb-20">
             <div class="">
               <h1 class="text-5xl font-bold leading-tight">
                 It's good <br>
-tea time at The <br> Tea House
+                 tea time at The <br> Tea House
               </h1>
               <p class="text-gray-500 py-4 pb-4">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
 
@@ -71,6 +71,50 @@ tea time at The <br> Tea House
              </div>
          </div>
         </header>
+
+        <!-- featured product section -->
+
+        <section class="py-8 lg:py-24">
+            <div class="text-center mb-8">
+                <h1 class="text-3xl md:text-4xl pb-3 font-bold">Our Featured Products</h1>
+                <p class="text-gray-600 max-w-xl mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            </div>
+
+            <!-- grid card -->
+             <div class=" grid lg:grid-cols-4 gap-8 text-center  grid-cols-1 ">
+                    <!-- card-1 -->
+            <div class="py-4 px-8 rounded-lg shadow-lg bg-gray-50 overflow-hidden">
+                <img src="./images/tea-1.png" alt="">
+              <div class="py-4 ">
+                <h1 class="text-xl font-bold">Milk Tea</h1>
+                <p class="text-gray-500 text-sm pt-3">Creamer could be <br> replaced by fresh milk</p>
+              </div>
+            </div>
+            <div class="p-5  rounded-lg shadow-lg bg-gray-50 overflow-hidden">
+                <img src="./images/tea-2.png" alt="">
+              <div class="py-4">
+                <h1 class="text-xl font-bold">Black Tea</h1>
+                <p class="text-gray-500 text-sm pt-3">Creamer could be <br> replaced by fresh milk</p>
+              </div>
+            </div>
+            <div class="p-5  rounded-lg shadow-lg bg-gray-50 overflow-hidden">
+                <img src="./images/tea-3.png" alt="">
+              <div class="py-4">
+                <h1 class="text-xl font-bold">Lemon Tea</h1>
+                <p class="text-gray-500 text-sm pt-3">Creamer could be <br> replaced by fresh milk</p>
+              </div>
+            </div>
+            <div class="p-5  rounded-lg shadow-lg bg-gray-50 overflow-hidden">
+                <img src="./images/tea-4.png" alt="">
+              <div class="py-4">
+                <h1 class="text-xl font-bold">Green Tea</h1>
+                <p class="text-gray-500 text-sm pt-3">Creamer could be <br> replaced by fresh milk</p>
+              </div>
+            </div>
+            
+             </div>
+
+        </section>
     </main>
 </body>
 </html>
